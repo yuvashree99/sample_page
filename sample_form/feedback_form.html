@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback form</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="form.html"> Home/ </a>
+                <a href="admission_form.html"> Admission Form/</a>
+                <a href="contact.html"> Contact Form</a>
+              </nav>
+        </header>      
+        <form>
+            <h2>FEEDBACK FORM</h2>
+            We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve.
+            <hr/>
+            <label><b>NAME</b></label>  <br/>       
+            <input type="text" name="frstname" size="35" placeholder="firstname"/> 
+            <input type="text" name="lstname" size="35" placeholder="lastname"/> 
+            <br/><br/>
+            <label><b> EMAIL ADDRESS</b></label>  <br/>       
+            <input type="text" name="email" size="35" placeholder="abc@example.com"/> 
+            <br> <br>
+            <label><b> FEEDBACK TYPE</b></label>  <br/> 
+            <input type="radio" name="fbtype" value="suggestions"/> Suggestions <br/>
+            <input type="radio" name="fbtype" value="comments"/> Comments <br/>
+            <input type="radio" name="fbtype" value="queries"/> Queries <br/>
+            <br/><br/>
+            Describre your Feedback:<br/>
+            <textarea id="description" name="description" placeholder="type here.." ></textarea>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit Feedback" >
+        </form>
+    </body>
+</html>
